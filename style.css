@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+
+
+.gameTable{
+    position: absolute;
+    top: 11%;
+    left: auto;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.cell{
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    font-size: 100px;
+    text-align:center;
+    line-height: 150px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn {
+    position: absolute;
+    top: 52%;
+    left: 47%;
+    text-align: center;
+    text-decoration: solid;
+}
+.message {
+    position: fixed;
+    top: 7%;
+    left: auto;
+    text-align: center;
+    text-decoration-style: solid;
+}
